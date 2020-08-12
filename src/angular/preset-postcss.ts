@@ -51,6 +51,8 @@ export function webpackFinal(
         ':host-context',
         ':nth-child',
         ':nth-of-type',
+        ':not',
+        ':enabled',
       ],
     };
 

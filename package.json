@@ -28,6 +28,7 @@
     "lint-fix": "eslint src/**/*.ts --fix",
     "angular:build": "tsc --p src/angular",
     "angular:pack": "cd src/angular && npm pack",
+    "angular:all": "yarn run angular:build && yarn run angular:pack",
     "prettier": "prettier --config .prettierrc --write src/**/*.{ts,tsx}",
     "pretty-quick": "pretty-quick --staged",
     "react:build": "tsc --p src/react",
